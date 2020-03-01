@@ -20,13 +20,15 @@ There Are Two types of microservice communications that can take place
 - Serverside Discovery
 
 # ClientSideDiscovery
-[alt client-side-discovery-image](https://github.com/prathap442/microservices-understanding-/blob/master/chap4-microserviceregistry/shot2.png)
+![alt client-side-discovery-image](https://github.com/prathap442/microservices-understanding-/blob/master/chap4-microserviceregistry/shot2.png)
   - this is the microservice network in which the new microservice that is about to come gets registered with the register microservice .
 
   - When mcs1 needs to communicate with the mcs2(microservice2)  then the mcs1 first asks to the mcs-registery on getting the point address for the sake of the communication with the registry the registry then gives the address back and then this mcs1 can communicate with the mcs2 with the help of the address obtained from the services registery .
 
 # Server Side Discovery
-[alt serverside-discovery-image](https://github.com/prathap442/microservices-understanding-/blob/master/chap4-microserviceregistry/shot3.png)
+
+![alt serverside-discovery-image](https://github.com/prathap442/microservices-understanding-/blob/master/chap4-microserviceregistry/shot3.png)
+
   - When mcs1 needs to communicate with the mcs2 then the mcs1 first speaks with the load balancer then the load balancer speaks with the mcs-registery and then the load balancer speaks on behalf of the mcs1 to the mcs2
    - This kind of the microservice design is the server side discovery .
 
