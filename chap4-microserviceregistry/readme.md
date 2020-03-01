@@ -1,4 +1,6 @@
 # In this chapter we are going to see about the registries for the microservices.
+![alt registration-process](https://github.com/prathap442/microservices-understanding-/blob/master/chap4-microserviceregistry/shot1.png)
+
 
 - How the microservices get registered for the sake of the newer communications and connections to happen .
 
@@ -20,7 +22,7 @@ There Are Two types of microservice communications that can take place
 # ClientSideDiscovery
   - this is the microservice network in which the new microservice that is about to come gets registered with the register microservice .
 
-  - When mcs1 needs to communicate with the mcs2(microservice2) then the mcs1 first asks to the mcs-registery on getting the point address for the sake of the communication with the registry the registry then gives the address back and then this mcs1 can communicate with the mcs2 with the help of the address obtained from the services registery .
+  - When mcs1 needs to communicate with the mcs2(microservice2)  then the mcs1 first asks to the mcs-registery on getting the point address for the sake of the communication with the registry the registry then gives the address back and then this mcs1 can communicate with the mcs2 with the help of the address obtained from the services registery .
 
 # Server Side Discovery
 
